@@ -1,0 +1,77 @@
+/* General styles for body */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('IMG/fondo.png');
+  background-color: #ffc400;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  background-color: rgb(255, 248, 180);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Headings */
+h1 {
+  color: #6e4000;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #422000;
+}
+
+/* Logo container */
+.logo-container {
+  text-align: center;
+  margin-bottom: 50px; /* Espacio entre el logo y las redes sociales */
+}
+
+/* Logo image */
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* Ajusta el tamaño del logo */
+}
+
+/* Social icons container */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 160px;
+  gap: 15px;
+}
+
+/* Social icons images */
+.social-icons a img {
+  width: 60px;
+  transition: transform 0.4s ease;
+  margin-right: 10px;
+}
+
+/* Hover effect for social icons */
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+/* Ensur
